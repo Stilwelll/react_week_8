@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class ClassmateRow extends Component {
   render() {
-      const classmate = this.props.classmate
+      let classmate = this.props.classmate
     return (
         <tr>
             <td>{classmate.id}</td>

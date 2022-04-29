@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(
+let root = ReactDOM.createRoot(
 	document.getElementById('root')
   	);
 
-const app = <React.StrictMode>
+let app = <React.StrictMode>
 				<Router>
 					<App />
 				</Router>        

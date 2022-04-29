@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import ClassmateRow from '../components/ClassmateRow'
 
 export default function ClassTable(props) {
-    const [peeps, setPeeps] = useState([])
+    let [peeps, setPeeps] = useState([])
 
     useEffect(() => {
         fetch(`https://kekambas-bs.herokuapp.com/kekambas`)

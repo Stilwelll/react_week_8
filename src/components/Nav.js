@@ -13,6 +13,7 @@ export default function Nav() {
                 <div className="navbar-nav">
                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                     <Link className="nav-link" to="/peepsTable">Classmates</Link>
+                    <Link className="nav-link" to="/posts">Posts</Link>
                 </div>
             </div>
         </div>
